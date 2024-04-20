@@ -45,7 +45,7 @@
 
 <style>
 .Needs {
-    border: solid;
+    padding-left:30px;
     max-width: 44%;
     position: fixed;
     top: 200px;
@@ -54,19 +54,19 @@
 }
 
 .Wants {
-    border: solid;
+    padding-left:30px;
     max-width: 44%;
     position: fixed;
-    top: 500px;
+    top: 450px;
     left: 0;
 
 }
 
 .Savings {
-    border: solid;
+    padding-left:30px;
     max-width: 44%;
     position: fixed;
-    top: 700px;
+    top: 650px;
     left: 0;
 
 }
