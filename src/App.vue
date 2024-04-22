@@ -17,7 +17,7 @@ import footer from './components/footer.vue'
 
 <style>
 .container {
-  border: solid;
+
   width: 100%;
   padding-right: 2rem;
   padding-left: 2rem;
