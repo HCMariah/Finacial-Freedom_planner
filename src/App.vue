@@ -18,10 +18,12 @@ import footer from './components/footer.vue'
 <style>
 .container {
 
-  width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-  position: relative;
+width: 100%;
+padding-right: 2rem;
+padding-left: 2rem;
+padding-bottom: 2rem;
+text-align: center;
+
+
 }
 </style>

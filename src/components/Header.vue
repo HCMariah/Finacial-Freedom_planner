@@ -14,7 +14,5 @@ h1 {
     font-size: 35px;
 }
 
-.center{
-    text-align: center;
-}
+
 </style>
