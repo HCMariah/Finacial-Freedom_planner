@@ -1,7 +1,8 @@
 <script>
-import Percentage from './Percentage.js'
-</script>
 
+
+
+</script>
 <template>
 
 
@@ -48,22 +49,17 @@ import Percentage from './Percentage.js'
                     a home.
                     Paying down debt beyond the minimum payment amount belongs in this category, too.</p>
             </div>
-            <form>
-                <label for="nbr">Monthly income : </label>
-                <input type="number" id="nbr" placeholder="32000" maxlength="10">
 
-                <input type="button" id="btn1" value="Submit">
-
-                <p class="output" id="output1">Output</p>
-            </form>
-
-
+            <div>
+                <br><br>
+                <p style="font-size: 20px;">Enter your Monthly Income to the tool below to see how much you should be
+                    saving in each category.</p>
+            </div>
         </div>
     </div>
 
+
 </template>
-
-
 
 <style scoped>
 .content {
@@ -75,18 +71,5 @@ import Percentage from './Percentage.js'
 h2 {
     font-weight: bolder;
     text-decoration: underline;
-}
-
-form {
-    margin-bottom: 20px;
-}
-
-input[type="number"] {
-    padding: 5px;
-    width: 200px;
-}
-
-button {
-    padding: 5px 10px;
 }
 </style>

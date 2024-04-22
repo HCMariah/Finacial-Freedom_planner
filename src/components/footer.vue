@@ -15,7 +15,11 @@
 </template>
 
 <style scoped>
+.container{
+    padding:3rem;
+}
 html {
     scroll-behavior:auto;
+    
 }
 </style>
