@@ -50,5 +50,17 @@
 </template>
 
 <style>
-
+.container {
+    margin-top: 40px;
+    margin-bottom: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    text-align: start;
+    margin-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+}
 </style>
