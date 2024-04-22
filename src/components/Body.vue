@@ -9,7 +9,7 @@
         <p>The 50 | 30 | 20 rule recommends putting 50% of your money toward needs, 30% toward wants, and 20%
             toward savings.</p>
         <div>
-            <img src="./icons/Chart.png" alt="Chart showing the 50 | 30 | 20 rule." width="100%" height="auto">
+            <img src="./icons/Chart.png" alt="Chart showing the 50 | 30 | 20 rule." width="80%" height="auto">
         </div>
         <div class="content">
 
