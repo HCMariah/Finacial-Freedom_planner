@@ -1,7 +1,7 @@
 <script setup="ts">
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
-import footer from './components/footer.vue'
+import Footer from './components/footer.vue'
 </script>
 
 <template>
@@ -11,18 +11,18 @@ import footer from './components/footer.vue'
 
     <Body />
 
-    <footer />
+    <Footer />
+
   </div>
 </template>
 
 <style>
 .container {
-
-width: 100%;
-padding-right: 2rem;
-padding-left: 2rem;
-padding-bottom: 2rem;
-text-align: center;
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
 
 
 }
