@@ -1,8 +1,8 @@
 <template>
     <p>The 50 | 30 | 20 rule recommends putting 50% of your money toward needs, 30% toward wants, and 20%
         toward savings.</p>
-    <div>
-        <img src="./icons/Chart.png" alt="Chart showing the 50 | 30 | 20 rule." width="80%" height="auto">
+    <div class="Chart">
+        <img src="./icons/Chart.png" alt="Chart showing the 50 | 30 | 20 rule." width="50%" height="auto">
     </div>
     <div class="content">
         <div class="needs">
@@ -41,14 +41,17 @@
         </div>
 
         <div>
-            <br><br>
-            <p style="font-size: 20px;">Enter your Monthly Income to the tool below to see how much you should be
-                saving in each category.</p>
+            <h1 style="text-align: center; color: #0CBD6E;">Savings Calculator</h1>
         </div>
     </div>
 </template>
 
 <style scoped>
+.Chart{
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
 .content {
     display: inline-block;
     text-align: left;
@@ -57,5 +60,8 @@
 h2 {
     font-weight: bolder;
     text-decoration: underline;
+}
+p{
+    padding: 1rem;
 }
 </style>

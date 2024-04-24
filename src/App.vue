@@ -2,7 +2,7 @@
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
 import Footer from './components/footer.vue'
-import CalculationFunction from './components/CalculationFunction.vue';
+import Calculation from './components/Calculation.vue';
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import CalculationFunction from './components/CalculationFunction.vue';
 
     <Body />
 
-    <CalculationFunction />
+    <Calculation />
 
     <Footer />
 
