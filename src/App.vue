@@ -6,7 +6,7 @@ import CalculationFunction from './components/CalculationFunction.vue';
 </script>
 
 <template>
-  <div class="container">
+  <v-container>
 
     <Header />
 
@@ -16,15 +16,15 @@ import CalculationFunction from './components/CalculationFunction.vue';
 
     <Footer />
 
-  </div>
+  </v-container>
 </template>
 
 <style>
 .container {
   width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 </style>

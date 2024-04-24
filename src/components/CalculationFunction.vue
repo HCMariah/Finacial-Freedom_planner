@@ -1,21 +1,19 @@
 <template>
     <div>
-        <div class=field1>
-            <label for="inputNumber">Monthly Income : </label>
-            <input type="number" v-model.number="inputNumber" placeholder="3218">
-            <button @click="calculate">Calculate</button>
-        </div>
-        <div class="output-container">
-            <div class="output-box">
-                50% Needs : <input type="text" v-model="output50" readonly>
-            </div>
-            <div class="output-box">
-                30% Wants : <input type="text" v-model="output30" readonly>
-            </div>
-            <div class="output-box">
-                20% Saving : <input type="text" v-model="output20" readonly>
-            </div>
-        </div>
+        <v-row>
+            <v-text-field type="number" label="Monthly Income" v-model.number="inputNumber" placeholder="3218" />
+        </v-row>
+        <v-row>
+            <v-btn class="button" theme="dark" size="large" @click="calculate">Calculate</v-btn>
+        </v-row>
+        <v-row>
+            <v-text-field variant="underlined" class="input" type="text" label="50% Needs" v-model="output50"
+                readonly />
+
+            <v-text-field variant="outlined" color="#ffff" class="input" type="text" label="30% Wants" v-model="output30" readonly />
+
+            <v-text-field class="input" type="text" label="20% Saving" v-model="output20" readonly />
+        </v-row>
     </div>
 </template>
 
@@ -47,23 +45,13 @@ const formatValue = (value) => {
 </script>
 
 <style scoped>
-.field1{
-    width: 40%;
-    display: inline-block;
-    justify-content: center;
-
+.button{
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.output-container {
-    display: flex;
-
-
-}
-
-.output-box {
-    width: 30%;
-    display: inline-block;
-    justify-content: center;
-    padding-top: 1rem;
+.input{
+    margin-left: 5px;
+    margin-right: 5px;    
 }
 </style>
