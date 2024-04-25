@@ -1,11 +1,11 @@
 <template>
     <v-col>
         <v-row>
-            <v-text-field variant="outlined" color="#0CBD6E" class="input" type="number" label="Monthly Income"
-                v-model.number="inputNumber" placeholder="$2,300.00" prefix="$" />
+            <v-text-field variant="outlined" color="#0CBD6E" class="input" type="number" label="Monthly Net Income"
+                v-model.number="inputNumber" placeholder="2,300.00" prefix="$" />
         </v-row>
         <v-row>
-            <v-btn class="button" theme="dark" size="small" width="100%" color="#0C6718" @click="calculate">Calculate</v-btn>
+            <v-btn class="button" theme="dark" size="small" width="100%" color="#0C6718" @click="calculate">Calculate Budget</v-btn>
         </v-row>
         <v-row>
             <v-text-field variant="outlined" color="#0CBD6E" class="input" type="text" label="50% Needs" v-model="output50" prefix="$"

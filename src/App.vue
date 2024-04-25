@@ -2,7 +2,7 @@
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
 import Footer from './components/footer.vue'
-import Calculation from './components/Calculation.vue';
+import Calculation from './components/SavingsCalculation.vue';
 </script>
 
 <template>
