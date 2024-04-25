@@ -1,20 +1,24 @@
   <script setup>
   import Header from '@/components/Header.vue'
   import Body from '@/components/Body.vue'
-  import Footer from './components/footer.vue'
+  import Footer from '@/components/Footer.vue'
   import BudgetCalculation from '@/components/BudgetCalculation.vue'
 </script>
+
 <template>
   <v-app>
     <v-main>
       <v-container>
-        <Header />
-        <BudgetCalculation />
+        <body> 
 
-        <Body />
-        <Footer />
+          <Header />
+          <BudgetCalculation />
+          
+          <Body />
+          <Footer />
+          <router-view />
+        </body>
       </v-container>
-      <router-view />
     </v-main>
   </v-app>
 </template>
