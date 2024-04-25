@@ -53,10 +53,4 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  // Add the rollupOptions here
-  build: {
-    rollupOptions: {
-      external: ['/src/components/Footer.vue']
-    }
-  }
 })
