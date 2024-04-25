@@ -1,47 +1,79 @@
-**Welcome to the 50 | 30 | 20 Budgeting Calculator Tool!**
+# Vuetify (Default)
 
-Thank you for visiting our website. We aim to provide you with a brief overview of what our tool offers and how you can use it effectively to manage your finances.
+This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
 
-### What is the 50 | 30 | 20 Rule?
+## ❗️ Important Links
 
-The 50 | 30 | 20 rule is a popular budgeting method that suggests breaking down your after-tax income into three categories:
+- 📄 [Docs](https://vuetifyjs.com/)
+- 🚨 [Issues](https://issues.vuetifyjs.com/)
+- 🏬 [Store](https://store.vuetifyjs.com/)
+- 🎮 [Playground](https://play.vuetifyjs.com/)
+- 💬 [Discord](https://community.vuetifyjs.com)
 
-1. **50% for Needs:** This category covers essential expenses such as housing, utilities, groceries, transportation, and minimum debt payments.
+## 💿 Install
 
-2. **30% for Wants:** This category includes discretionary spending on non-essential items such as dining out, entertainment, hobbies, and vacations.
+Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
 
-3. **20% for Savings and Debt Repayment:** This category is dedicated to savings, investments, and paying off debt faster than minimum payments.
+| Package Manager                                                | Command        |
+|---------------------------------------------------------------|----------------|
+| [yarn](https://yarnpkg.com/getting-started)                   | `yarn install` |
+| [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)     | `npm install`  |
+| [pnpm](https://pnpm.io/installation)                          | `pnpm install` |
+| [bun](https://bun.sh/#getting-started)                        | `bun install`  |
 
-### How to Use the Budgeting Calculator Tool:
+After completing the installation, your environment is ready for Vuetify development.
 
-Our budgeting calculator tool is designed to help you implement the 50 | 30 | 20 rule effectively. Here's how you can use it:
+## ✨ Features
 
-1. **Input Your Monthly Income:** Begin by entering your after-tax monthly income into the designated field.
+- 🖼️ **Optimized Front-End Stack**: Leverage the latest Vue 3 and Vuetify 3 for a modern, reactive UI development experience. [Vue 3](https://v3.vuejs.org/) | [Vuetify 3](https://vuetifyjs.com/en/)
+- 🗃️ **State Management**: Integrated with [Pinia](https://pinia.vuejs.org/), the intuitive, modular state management solution for Vue.
+- 🚦 **Routing and Layouts**: Utilizes Vue Router for SPA navigation and vite-plugin-vue-layouts for organizing Vue file layouts. [Vue Router](https://router.vuejs.org/) | [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
+- ⚡ **Next-Gen Tooling**: Powered by Vite, experience fast cold starts and instant HMR (Hot Module Replacement). [Vite](https://vitejs.dev/)
+- 🧩 **Automated Component Importing**: Streamline your workflow with unplugin-vue-components, automatically importing components as you use them. [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 
-2. **Allocate Your Income:** The tool will automatically calculate the amounts for each category based on the 50 | 30 | 20 rule.
+These features are curated to provide a seamless development experience from setup to deployment, ensuring that your Vuetify application is both powerful and maintainable.
 
-3. **Track Your Expenses:** As you go through the month, input your actual expenses in each category. The tool will compare these with your allocated amounts and provide insights into your spending habits.
+## 💡 Usage
 
-4. **Monitor Your Progress:** Regularly check the tool to see how well you're sticking to the 50 | 30 | 20 guideline. Use it to make adjustments as necessary to stay on track with your financial goals.
+This section covers how to start the development server and build your project for production.
 
-### Why Use Our Budgeting Calculator Tool?
+### Starting the Development Server
 
-- **Simplicity:** Our tool simplifies the budgeting process by automatically allocating your income according to the 50 | 30 | 20 rule, saving you time and effort.
+To start the development server with hot-reload, run the following command. The server will be accessible at [http://localhost:3000](http://localhost:3000):
 
-- **Visibility:** Easily visualize your spending patterns and identify areas where you may need to adjust your budget.
+```bash
+yarn dev
+```
 
-- **Financial Health:** By adhering to the 50 | 30 | 20 rule, you can achieve a balanced approach to managing your finances, ensuring you meet your needs, enjoy some wants, and prioritize savings and debt repayment.
+(Repeat for npm, pnpm, and bun with respective commands.)
 
-### Disclaimer:
+> Add NODE_OPTIONS='--no-warnings' to suppress the JSON import warnings that happen as part of the Vuetify import mapping. If you are on Node [v21.3.0](https://nodejs.org/en/blog/release/v21.3.0) or higher, you can change this to NODE_OPTIONS='--disable-warning=5401'. If you don't mind the warning, you can remove this from your package.json dev script.
 
-While our budgeting calculator tool provides a useful framework for managing your finances, it's essential to customize your budget based on your individual circumstances and financial goals. Additionally, remember that this tool offers guidance and should be used in conjunction with other financial planning strategies.
+### Building for Production
 
-### Feedback and Support:
+To build your project for production, use:
 
-We value your feedback! If you have any suggestions for improving our tool or encounter any issues while using it, please don't hesitate to reach out to us. Your input helps us enhance our services and better meet your needs.
+```bash
+yarn build
+```
 
-Thank you for choosing our 50 | 30 | 20 Budgeting Calculator Tool. We hope it helps you achieve financial stability and peace of mind.
+(Repeat for npm, pnpm, and bun with respective commands.)
 
-Happy budgeting!
+Once the build process is completed, your application will be ready for deployment in a production environment.
 
-Financial Freedom Team
+## 💪 Support Vuetify Development
+
+This project is built with [Vuetify](https://vuetifyjs.com/en/), a UI Library with a comprehensive collection of Vue components. Vuetify is an MIT licensed Open Source project that has been made possible due to the generous contributions by our [sponsors and backers](https://vuetifyjs.com/introduction/sponsors-and-backers/). If you are interested in supporting this project, please consider:
+
+- [Requesting Enterprise Support](https://support.vuetifyjs.com/)
+- [Sponsoring John on Github](https://github.com/users/johnleider/sponsorship)
+- [Sponsoring Kael on Github](https://github.com/users/kaelwd/sponsorship)
+- [Supporting the team on Open Collective](https://opencollective.com/vuetify)
+- [Becoming a sponsor on Patreon](https://www.patreon.com/vuetify)
+- [Becoming a subscriber on Tidelift](https://tidelift.com/subscription/npm/vuetify)
+- [Making a one-time donation with Paypal](https://paypal.me/vuetify)
+
+## 📑 License
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2016-present Vuetify, LLC

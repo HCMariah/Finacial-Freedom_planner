@@ -15,4 +15,8 @@
 .hr{
     margin-bottom: 20px;
 }
+a {
+    color:#0CBD6E;
+    text-decoration:none;
+}
 </style>
