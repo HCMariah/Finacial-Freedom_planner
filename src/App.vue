@@ -1,21 +1,16 @@
 <script setup="ts">
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
-import Footer from './components/footer.vue'
-import Calculation from './components/SavingsCalculation.vue';
+import Footer from './components/Footer.vue'
+import BudgetCalculation from './components/BudgetCalculation.vue';
 </script>
 
 <template>
   <v-container>
-
     <Header />
-
+    <BudgetCalculation />
     <Body />
-
-    <Calculation />
-
     <Footer />
-
   </v-container>
 </template>
 

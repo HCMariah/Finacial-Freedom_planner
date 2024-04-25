@@ -40,9 +40,6 @@
                 Paying down debt beyond the minimum payment amount belongs in this category, too.</p>
         </div>
 
-        <div>
-            <h1 style="text-align: center; color: #0CBD6E;">Budget Calculator</h1>
-        </div>
     </div>
 </template>
 
@@ -56,7 +53,6 @@
     display: inline-block;
     text-align: left;
 }
-
 h2 {
     font-weight: bolder;
     text-decoration: underline;

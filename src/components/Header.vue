@@ -17,6 +17,4 @@ p {
 h1 {
     font-size: 35px;
 }
-
-
 </style>

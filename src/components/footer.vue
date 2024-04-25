@@ -6,7 +6,6 @@
             <a href="#">Scroll to top</a>
         </div>
     </div>
-
 </template>
 
 <style scoped>
