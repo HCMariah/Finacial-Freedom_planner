@@ -2,6 +2,7 @@
 import Header from '@/components/Header.vue';
 import BudgetCalculation from '@/components/BudgetCalculation.vue';
 import Body from '@/components/Body.vue'
+import Footer from '@/components/Footer.vue'
 
 </script>
 
@@ -12,6 +13,7 @@ import Body from '@/components/Body.vue'
     <Header />
     <BudgetCalculation />
     <Body />
+    <Footer />
    
     
   </div>
