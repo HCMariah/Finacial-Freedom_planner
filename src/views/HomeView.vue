@@ -2,7 +2,7 @@
 import Header from '@/components/Header.vue';
 import BudgetCalculation from '@/components/BudgetCalculation.vue';
 import Body from '@/components/Body.vue'
-import Footer from "C:/Users/Micha/Projects/Financial-Freedom/src/components/Footer.vue"
+
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import Footer from "C:/Users/Micha/Projects/Financial-Freedom/src/components/Foo
     <Header />
     <BudgetCalculation />
     <Body />
-    <Footer />
+   
     
   </div>
 </template>
