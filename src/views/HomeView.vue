@@ -7,7 +7,7 @@ import Bottom from '@/components/Bottom.vue';
 </script>
 
 <template>
-  <title>Mariah Medina | Home</title>
+  <title>Financial Freedom</title>
 
   <div class="Container">
     <Header />
