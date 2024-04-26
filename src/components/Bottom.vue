@@ -2,8 +2,8 @@
     <div class="container">
         <div class="footer">
             <hr class="hr"/>
-            <p>Copyright © 2024 Mariah Medina</p>
-            
+            <p>Copyright © 2024 | Mariah Medina</p>
+            <a href="#">Scroll to top</a>
         </div>
     </div>
 </template>
@@ -14,9 +14,5 @@
 }
 .hr{
     margin-bottom: 20px;
-}
-a {
-    color:#0CBD6E;
-    text-decoration:none;
 }
 </style>
