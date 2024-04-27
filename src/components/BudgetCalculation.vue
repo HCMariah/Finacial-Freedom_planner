@@ -1,17 +1,13 @@
 <template>
     <v-col>
-        <v-row class="centerd">
-            <h1 style="color: #0CBD6E;">Budget Calculator</h1>
-        </v-row>
-        <v-row>
+        <v-row class="useriput">
             <v-col cols="12" sm="4">
-                
-                    <v-text-field variant="outlined" color="#0CBD6E" label="Monthly Net Income"
-                        v-model.number="inputNumber" placeholder="After Tax Monthly Net Income"
-                        prepend-inner-icon="mdi-currency-usd" type="number" hide-spin-buttons />
-            </v-col>
-            <v-col cols="12" sm="4">
-                <v-btn class="button" theme="dark" width="287px" height="56px" color="#0CBD6E" variant="outlined" @click="calculate">Calculate
+                <h1 style="color: #0CBD6E;">Budget Calculator</h1>
+                <v-text-field variant="outlined" color="#0CBD6E" label="Monthly Net Income" v-model.number="inputNumber"
+                    placeholder="After Tax Monthly Net Income" prepend-inner-icon="mdi-currency-usd" type="number"
+                    hide-spin-buttons />
+                <v-btn class="button" theme="dark" width="287px" height="56px" color="#0CBD6E" variant="outlined"
+                    @click="calculate">Calculate
                     Budget</v-btn>
             </v-col>
         </v-row>
@@ -55,10 +51,7 @@ const formatValue = (value) => {
 </script>
 
 <style scoped>
-.centerd {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    margin-bottom: 2rem;
+.useriput {
+  justify-content: center;
 }
 </style>
