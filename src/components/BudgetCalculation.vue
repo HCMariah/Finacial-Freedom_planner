@@ -10,7 +10,7 @@
                         type="number" hide-spin-buttons />
                 </v-col>
                 <v-col>
-                    <v-btn class="button" theme="dark" width="100%" size="x-large" color="#0CBD6E" variant="outlined"
+                    <v-btn class="button" theme="dark" width="90%" height="70%" color="#0CBD6E" variant="outlined"
                         @click="calculate">Calculate
                         Budget</v-btn>
                 </v-col>
